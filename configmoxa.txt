@@ -1,0 +1,5 @@
+[access]
+#имя пользователя и имя keychain
+#задать пароль можно при помощи утилиты setpass.py
+username=admin
+keychainname=moxarelayonoff
