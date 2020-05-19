@@ -1,0 +1,30 @@
+[configcmd]
+#укажите setrelay1 для управления первыл реле или setrelay2 для управления вторым
+ccmd=setrelay2
+
+[timesettings]
+#укажите таймаут срабатывания реле
+timeout=3
+
+[cmd]
+setrelay1=relay-warning event di 1 off relay 1
+    no relay-warning event di 1 off
+    relay-warning event di 1 on relay 1
+    no relay-warning event di 1 on
+
+setrelay2=relay-warning event di 1 off relay 2
+    no relay-warning event di 1 off
+    relay-warning event di 1 on relay 2
+    no relay-warning event di 1 on
+
+setrelay1_dioff=relay-warning event di 1 off relay 1
+    no relay-warning event di 1 off
+
+setrelay2_dioff=relay-warning event di 1 off relay 2
+    no relay-warning event di 1 off
+
+setrelay1_dion=relay-warning event di 1 off relay 1
+    no relay-warning event di 1 on
+
+setrelay2_dion=relay-warning event di 1 off relay 2
+    no relay-warning event di 1 on
