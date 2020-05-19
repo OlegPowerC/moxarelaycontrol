@@ -16,4 +16,4 @@
 указанным в файле.
 
 Пример команды:
-python relayonoff.py -u admin -p admin -i 192.168.1.34 -c moxacommand.txt
+python3 relayonoff.py -u admin -p admin -i 192.168.1.34 -c moxacommand.txt
