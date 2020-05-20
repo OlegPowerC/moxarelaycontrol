@@ -17,3 +17,8 @@
 
 Пример команды:
 python3 relayonoff.py -u admin -p admin -i 192.168.1.34 -c moxacommand.txt
+
+Так же в CentOS 7 требуется:
+sudo yum install -y rng-tools
+systemctl start rngd.service
+systemctl enable rngd.service
